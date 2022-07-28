@@ -724,8 +724,8 @@ KolloqeChatWidget.propTypes = {
 KolloqeChatWidget.defaultProps = {
   position: "right",
   positionProps: {
-    xAxis: "100px",
-    yAxis: "100px"
+    xAxis: "10px",
+    yAxis: "10px"
   },
   title: "Kolloqe ⚡",
   subtitle: "chat widget",
