@@ -1,0 +1,78 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <title>Kolloqe | Socketio Widget</title>
+  </head>
+
+  <body>
+    <h2>Kolloqe Socketio Chat Widget</h2>
+    <div id="testid"></div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      window.kolloqe_webchat_id = "testid";
+      window.kolloqeProps = {
+        testid: {
+          position: "right",
+          positionProps: {
+            xAxis: "10px",
+            yAxis: "10px"
+          },
+          title: "Kolloqe ⚡",
+          subtitle: "chat widget",
+          defaultLang: "en",
+          avatar: true,
+          avatarType: "text",
+          avatarLink: "",
+          socketURL: "http://localhost:5005",
+          initPayload: "/get_started",
+          reconnectTimeout: 5000,
+          widgetOptions: true,
+          fullscreenButton: false,
+          langSwitch: true,
+          moreOptions: true,
+          widgetOptionsPosition: "top",
+          hideWhenNotConnected: true,
+          displayUnreadCount: false,
+          showMessageDate: false,
+          customMessageDelay: null,
+          persistSession: true,
+          triggerIntents: true,
+          enableURLs: true,
+          disablePreviousQuickReplies: true,
+          indicatorDelay: 0,
+          indicatorType: "bouncing",
+          params: null,
+          enableShortcuts: true,
+          shortcutKey: 81,
+        }
+      };
+
+      const version = "1.0.1";
+      const source = "kolloqe-widget-socketio-en-html-v1.0.1";
+
+      !(function () {
+        let e = document.createElement("script");
+        let s = document.createElement("link");
+        let t = document.head || document.getElementsByTagName("head")[0];
+        (e.src = "kolloqe-widget-socketio-en-html-v1.0.1.js"),
+          (e.async = !0),
+          (e.onload = () => { }),
+          t.insertBefore(e, t.firstChild);
+
+        (s.href = "kolloqe-widget-socketio-en-html-v1.0.1.css"),
+          (s.rel = "stylesheet"),
+          (s.type = "text/css"),
+          t.insertBefore(s, t.firstChild);
+      })();
+    </script>
+  </body>
+
+  </html>
+  

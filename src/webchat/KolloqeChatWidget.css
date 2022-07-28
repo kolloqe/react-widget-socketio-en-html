@@ -1,0 +1,46 @@
+.kolloqe-widget-bg {
+  background-color: #E0E0E0;
+  border-radius: 2%;
+  color: black;
+}
+
+.kolloqe-launcher .MuiFab-root {
+  background-color: #37474F;
+  color:white;
+}
+
+.kolloqe-launcher .MuiFab-root:hover {
+  background-color: #3d4f58;
+  color:white;
+}
+
+.kolloqe-widget-header {
+  background-color: #455A64;
+  color: white;
+  padding: 10px;
+}
+
+.kolloqe-widget-fullscreen svg {
+  color: white;
+}
+
+.kolloqe-widget-send svg {
+  color: white;
+}
+
+.kolloqe-widget-send:disabled svg{
+  color: rgb(191, 191, 191);
+}
+
+.kolloqe-widget-message input {
+  color: white;
+  padding: 0 10px;
+}
+
+.kolloqe-message-list {
+  background-color: #E0E0E0;
+}
+
+.kolloqe-lang-switch-label .MuiFormControlLabel-label {
+  color: #E0E0E0;
+}
