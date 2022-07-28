@@ -1,6 +1,6 @@
 {
-  "name": "react-widget-socketio-cs-html",
-  "version": "1.0.0",
+  "name": "react-widget-socketio-en-html",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
