@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <title>Kolloqe | Keyboard Chat Widget</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="kolloqeChatWidget"></div>
+  <script>
+    // set required window vars to be passed as props
+    window.kolloqe_webchat_id = "kolloqeChatWidget";
+    window.kolloqeProps = {
+      kolloqeChatWidget: {
+        position: "right",
+        positionProps: {
+          xAxis: "10px",
+          yAxis: "10px",
+        },
+        title: "Kolloqe ⚡",
+        subtitle: "chat widget test",
+        avatar: true,
+        avatarType: "text",
+        avatarLink: "",
+        socketURL: "http://localhost:5005",
+        initPayload: "/greet",
+        reconnectTimeout: 5000,
+        widgetOptions: true,
+        fullscreenButton: false,
+        moreOptions: true,
+        widgetOptionsPosition: "bottom",
+        hideWhenNotConnected: true,
+        displayUnreadCount: false,
+        showMessageDate: false,
+        customMessageDelay: null,
+        persistSession: true,
+        triggerIntents: true,
+        enableURLs: true,
+        disablePreviousQuickReplies: true,
+        indicatorDelay: 0,
+        indicatorType: "scaling",
+        params: null,
+      }
+    }
+  </script>
+</body>
+
+</html>
