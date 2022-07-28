@@ -1,0 +1,36 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.kolloqe-card {
+  transform: scale(0.2) !important;
+  transition: transform 300ms !important;
+  opacity: 0.5 !important;
+}
+
+.kolloqe-card-active {
+  transform: scale(1.0) !important;
+  opacity: 1 !important;
+}
+
+.kolloqe-slider-arrow {
+  position: absolute !important;
+  z-index: 10 !important;
+}
+
+.kolloqe-slider-arrow svg {
+  transition: color 300ms !important;
+}
+
+.kolloqe-slider-arrow svg:hover {
+  color: #4CAF50 !important;
+}
+
+.kolloqe-slider-arrow-next {
+  right: 0% !important;
+  top: 50% !important;
+}
+
+.kolloqe-slider-arrow-prev {
+  left: 0% !important;
+  top: 50% !important;
+}

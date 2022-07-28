@@ -1,0 +1,61 @@
+{
+  "name": "react-widget-socketio-en-html",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "bootstrap": "^5.2.0",
+    "framer-motion": "^6.5.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-slick": "^0.29.0",
+    "react-string-replace": "^1.1.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "init": "node scripts/init.js && node scripts/cleanup.js",
+    "cleanup": "node scripts/cleanup.js",
+    "release": "react-scripts build && node scripts/release.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
